@@ -1,8 +1,8 @@
 echo "What is your name?"
 read name
-response=" "
+response=" Cool name!"
 if [[ $name == "Sally" ]]
 then
-     response="That is my name too!"
+     response="That's my name too!"
 fi
 echo Hi $name. $response
